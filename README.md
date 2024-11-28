@@ -33,6 +33,8 @@ pip install huggingface-hub  # if not installed yet
 huggingface-cli download TheBloke/SynthIA-7B-v2.0-16k-GGUF synthia-7b-v2.0-16k.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False
 ```
 
+Further details [here](https://huggingface.co/TheBloke/SynthIA-7B-v2.0-16k-GGUF)
+
 ## How to use it
 
 1. Copy your PDF files to the `data`, or keep the examples there
@@ -43,7 +45,7 @@ huggingface-cli download TheBloke/SynthIA-7B-v2.0-16k-GGUF synthia-7b-v2.0-16k.Q
 python populate_database.py [--reset]
 ```
 
->>> **reset** - optional parameter for deleting the RAG database
+> **reset** - optional parameter for deleting the RAG database
 
 3. Run a query
 
